@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="零点存在定理,中值定理,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="设 $f(x)\in C[0,1]$, 在 $(0,1)$ 内可导, 且 $f(0)=0$,  $f(\frac{1}{2}) =1$, $f(1)=\frac{1}{2}$. 证明:  存在 $c\in (0,1)$ 使得 $f(c)=c$. 对任意的 $k\in\mathbb{R}$, 存在 $\xi\in (0,1)$, 使得 $f’(\xi)+k[ f(\xi)-\xi ]=1$.  证明">
+<meta name="keywords" content="零点存在定理,中值定理">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2018/12/05/hello-world/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:title" content="零点存在定理以及微分中值定理的一个应用">
+<meta property="og:url" content="http://yoursite.com/2018/12/12/adv-math1/index.html">
+<meta property="og:site_name" content="Tang&#39;s Math">
+<meta property="og:description" content="设 $f(x)\in C[0,1]$, 在 $(0,1)$ 内可导, 且 $f(0)=0$,  $f(\frac{1}{2}) =1$, $f(1)=\frac{1}{2}$. 证明:  存在 $c\in (0,1)$ 使得 $f(c)=c$. 对任意的 $k\in\mathbb{R}$, 存在 $\xi\in (0,1)$, 使得 $f’(\xi)+k[ f(\xi)-\xi ]=1$.  证明">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-05T13:08:51.681Z">
+<meta property="og:updated_time" content="2018-12-12T10:11:54.895Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="零点存在定理以及微分中值定理的一个应用">
+<meta name="twitter:description" content="设 $f(x)\in C[0,1]$, 在 $(0,1)$ 内可导, 且 $f(0)=0$,  $f(\frac{1}{2}) =1$, $f(1)=\frac{1}{2}$. 证明:  存在 $c\in (0,1)$ 使得 $f(c)=c$. 对任意的 $k\in\mathbb{R}$, 存在 $\xi\in (0,1)$, 使得 $f’(\xi)+k[ f(\xi)-\xi ]=1$.  证明">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/12/05/hello-world/">
+  <link rel="canonical" href="http://yoursite.com/2018/12/12/adv-math1/">
 
 
 
 
 
-  <title>Hello World | Hexo</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>零点存在定理以及微分中值定理的一个应用 | Tang's Math</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -155,7 +156,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">Tang's Math</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -232,16 +233,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/05/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/12/adv-math1/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="Xingdong Tang">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Tang's Math">
     </span>
 
     
@@ -249,7 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">零点存在定理以及微分中值定理的一个应用</h1>
         
 
         <div class="post-meta">
@@ -261,8 +262,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-12-05T21:08:51+08:00">
-                2018-12-05
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-12-12T17:07:30+08:00">
+                2018-12-12
               </time>
             
 
@@ -299,15 +300,34 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>设 $f(x)\in C[0,1]$, 在 $(0,1)$ 内可导, 且 $f(0)=0$, </p>
+<p>$f(\frac{1}{2}) =1$, $f(1)=\frac{1}{2}$. 证明:</p>
+<ol>
+<li>存在 $c\in (0,1)$ 使得 $f(c)=c$.</li>
+<li>对任意的 $k\in\mathbb{R}$, 存在 $\xi\in (0,1)$, 使得 $f’(\xi)+k[ f(\xi)-\xi ]=1$.</li>
+</ol>
+<h5 id="证明："><a href="#证明：" class="headerlink" title="证明："></a>证明：</h5><ol>
+<li><p>定义函数 $g(x)=f(x)-x$，显而易见 $g(x)\in C[0,1]$, 且</p>
+<script type="math/tex; mode=display">g(\frac{1}{2})=1-\frac{1}{2}=\frac{1}{2}>0 ,</script><p>以及</p>
+<script type="math/tex; mode=display">g(1) = \frac{1}{2}-1=-\frac{1}{2}<0 .</script><p>根据<strong>零点存在定理</strong>, 存在 $c\in(\frac{1}{2},1)\subset (0,1)$ 使得 $0=g(c)=f(c)-c$.</p>
+</li>
+<li><p>因为 $g(0)=0$ 以及由第一步 存在 $c\in(\frac{1}{2},1)$, 使得 $g(c)=0$. 令 $h(x)=\log| g(x) |$, 从而有</p>
+<script type="math/tex; mode=display">\lim_{x\to 0}h(x)=-\infty,\qquad\text{and} \qquad\lim_{x\to c}h(x)=-\infty.</script><p>对任意的 $k\in\mathbb{R}$，</p>
+<ul>
+<li><p>$k&lt; 0$时, 可以选取 $X_1\in(0,\frac{1}{2})$ </p>
+<script type="math/tex; mode=display">\frac{1}{k}=\frac{h(X_1)-h(\frac{1}{2})}{ X_1-\frac{1}{2} }</script><p>对 $h(x)$ 与 $x$ 利用 <strong>柯西微分中值定理</strong></p>
+</li>
+<li><p>$k&gt;0$时, 可以选取  ​$X_2\in(\frac{1}{2},1)$ </p>
+<script type="math/tex; mode=display">\frac{1}{k}=\frac{h(X_2)-h(\frac{1}{2})}{ X_2-\frac{1}{2} }</script><p>对 $h(x)$ 与 $x$ 利用 <strong>柯西微分中值定理</strong></p>
+</li>
+<li><p>$k=0$</p>
+<p>由 $g(0)=0$结合 $g(\frac{1}{2})=\frac{1}{2}$.</p>
+<p>对 $g(x)$ 利用 <strong>拉格朗日中值定理</strong>.</p>
+</li>
+</ul>
+<p>再由, 既可以得结论.</p>
+</li>
+</ol>
 
       
     </div>
@@ -323,27 +343,19 @@
 
     <footer class="post-footer">
       
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/12/28/adv-math/" rel="next" title="index.html">
-                <i class="fa fa-chevron-left"></i> index.html
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
+        <div class="post-tags">
+          
+            <a href="/tags/零点存在定理/" rel="tag"># 零点存在定理</a>
+          
+            <a href="/tags/中值定理/" rel="tag"># 中值定理</a>
+          
         </div>
+      
+
+      
+      
+      
+
       
 
       
@@ -406,7 +418,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-author-name" itemprop="name">Xingdong Tang</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -417,7 +429,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -425,6 +437,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
@@ -454,7 +475,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#证明："><span class="nav-number">1.</span> <span class="nav-text">证明：</span></a></li></ol></div>
             
 
           </div>
@@ -478,7 +499,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Xingdong Tang</span>
 
   
 </div>
@@ -601,24 +622,7 @@
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-      all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-</script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
-</script>
-<!-- End: Injected MathJax -->
-<!-- hexo-inject:end -->
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -671,6 +675,43 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.staticfile.org/MathJax/MathJax-2.6-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
   
 
 
